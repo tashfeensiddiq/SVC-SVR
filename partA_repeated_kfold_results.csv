@@ -1,0 +1,301 @@
+folds,repetitions,hyperparameters,training_accuracy,validation_accuracy,comments
+5,5,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9944475543116087,0.7925591397849462,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7834838709677419,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 10.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7834838709677419,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7834838709677419,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 5.0, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7834838709677419,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",1.0,0.7834838709677419,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.9944475543116087,0.7925591397849462,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 2.0, 'tol': 0.0001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.7834838709677419,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7834838709677419,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 3.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7834838709677419,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.01, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.7834838709677419,Possible overfitting
+5,5,"{'kernel': 'linear', 'C': 0.05, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9578568572570972,0.7833548387096775,Possible overfitting
+5,5,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.651912568306011,0.5279139784946236,Possible overfitting
+5,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7950872984139677,0.6553118279569893,Possible overfitting
+5,5,"{'kernel': 'sigmoid', 'C': 10.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.9915020658403306,0.7938494623655914,Possible overfitting
+5,5,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7673597227775556,0.6708817204301076,Possible underfitting
+5,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3}",0.8202958816473411,0.7049032258064516,Possible overfitting
+5,5,"{'kernel': 'sigmoid', 'C': 5.0, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.8115020658403306,0.6474408602150539,Possible overfitting
+5,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3}",0.5745275223244036,0.5260215053763441,Possible underfitting
+5,5,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3}",0.4574436891909903,0.41329032258064513,Possible underfitting
+5,5,"{'kernel': 'sigmoid', 'C': 2.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000, 'degree': 3}",0.5290870318539251,0.4695913978494623,Possible underfitting
+5,5,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.2, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3}",0.25231507397041186,0.2079569892473118,Possible underfitting
+5,5,"{'kernel': 'sigmoid', 'C': 3.0, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.18267892842862854,0.1950537634408602,Possible underfitting
+5,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.05, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3}",0.8075463148074103,0.6867096774193547,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 0.1, 'degree': 2, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.7337838198054112,0.598021505376344,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 0.5, 'degree': 2, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.9908569905371185,0.7948387096774193,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 1.0, 'degree': 2, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.818494623655914,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 5.0, 'degree': 3, 'gamma': 0.01, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': -1}",0.8792989470878315,0.6673978494623656,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 10.0, 'degree': 3, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.8105376344086019,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 1.0, 'degree': 3, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 5000}",1.0,0.8066236559139784,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 0.1, 'degree': 3, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': 10000}",1.0,0.8039999999999999,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 2.0, 'degree': 4, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000}",0.6554791416766627,0.47255913978494624,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 0.5, 'degree': 4, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1}",1.0,0.77552688172043,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 3.0, 'degree': 4, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': -1}",1.0,0.7689892473118278,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 1.0, 'degree': 5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 1000}",1.0,0.6852903225806452,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 5.0, 'degree': 5, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.6944516129032259,Possible overfitting
+5,5,"{'kernel': 'poly', 'C': 10.0, 'degree': 5, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.6839569892473117,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.6767293082766893,0.56352688172043,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.7727868852459017,0.6190537634408603,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.8745328535252566,0.7350107526881721,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9990190590430496,0.8080430107526883,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7977634408602151,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",0.9990190590430496,0.7935053763440859,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.05, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.7465413834466215,0.5951397849462365,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 2.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.8132043010752688,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9862748234039717,0.698021505376344,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 3.0, 'gamma': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8014623655913978,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.2, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.712516129032258,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7415483870967741,Possible overfitting
+5,5,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7415483870967741,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9936318805811009,0.7818709677419357,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7765806451612904,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 10.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7765806451612904,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7765806451612904,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 5.0, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7765806451612904,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",1.0,0.7765806451612904,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.9936318805811009,0.7818709677419357,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 2.0, 'tol': 0.0001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.7765806451612904,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7765806451612904,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 3.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7765806451612904,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.01, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.7765806451612904,Possible overfitting
+5,10,"{'kernel': 'linear', 'C': 0.05, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.954572837531654,0.7733333333333334,Possible overfitting
+5,10,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.652052512328402,0.5181290322580646,Possible overfitting
+5,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7973543915767025,0.6492473118279569,Possible overfitting
+5,10,"{'kernel': 'sigmoid', 'C': 10.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.9905224576835933,0.7831827956989248,Possible overfitting
+5,10,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7683073437291749,0.6596129032258066,Possible overfitting
+5,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3}",0.8188031454085032,0.6890537634408601,Possible overfitting
+5,10,"{'kernel': 'sigmoid', 'C': 5.0, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.8098307343729174,0.6355053763440861,Possible overfitting
+5,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3}",0.5761721977875517,0.5310322580645161,Possible underfitting
+5,10,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3}",0.45874183659869383,0.39772043010752683,Possible underfitting
+5,10,"{'kernel': 'sigmoid', 'C': 2.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000, 'degree': 3}",0.5263308010129282,0.46815053763440856,Possible underfitting
+5,10,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.2, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3}",0.2493989071038251,0.21698924731182792,Possible underfitting
+5,10,"{'kernel': 'sigmoid', 'C': 3.0, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.18120751699320273,0.18952688172043008,Possible underfitting
+5,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.05, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3}",0.8070398507263761,0.6799569892473117,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 0.1, 'degree': 2, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.735921631347461,0.5926236559139785,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 0.5, 'degree': 2, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.9901999200319872,0.794731182795699,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 1.0, 'degree': 2, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.8170107526881719,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 5.0, 'degree': 3, 'gamma': 0.01, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': -1}",0.8802745568439292,0.6803655913978496,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 10.0, 'degree': 3, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.8078279569892475,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 1.0, 'degree': 3, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 5000}",1.0,0.8032688172043011,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 0.1, 'degree': 3, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': 10000}",1.0,0.8013118279569893,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 2.0, 'degree': 4, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000}",0.6573037451685992,0.4717204301075269,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 0.5, 'degree': 4, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1}",1.0,0.7759999999999999,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 3.0, 'degree': 4, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': -1}",1.0,0.7648817204301075,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 1.0, 'degree': 5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 1000}",1.0,0.673290322580645,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 5.0, 'degree': 5, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.6863655913978494,Possible overfitting
+5,10,"{'kernel': 'poly', 'C': 10.0, 'degree': 5, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.6713548387096775,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.6820791683326669,0.5497634408602151,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.7822284419565507,0.6176344086021506,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.8764760762361721,0.722967741935484,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9985312541650008,0.8000000000000002,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7928817204301076,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",0.9983673197387712,0.7849677419354839,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.05, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.7450473144075704,0.5906881720430107,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 2.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.811763440860215,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9861068905771024,0.7053118279569892,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 3.0, 'gamma': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7987741935483871,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.2, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.7099354838709678,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7414623655913979,Possible overfitting
+5,10,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7414623655913979,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9943351317042208,0.7996666666666665,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7808333333333333,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 10.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7808333333333333,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7808333333333333,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 5.0, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7794999999999999,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",1.0,0.7808333333333333,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.9943351317042208,0.7996666666666665,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 2.0, 'tol': 0.0001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.7808333333333333,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7794999999999999,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 3.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7808333333333333,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.01, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.7794999999999999,Possible overfitting
+10,5,"{'kernel': 'linear', 'C': 0.05, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9452533587220989,0.7970833333333331,Possible overfitting
+10,5,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7135681794139427,0.5720833333333333,Possible overfitting
+10,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.812779011953877,0.6829999999999999,Possible overfitting
+10,5,"{'kernel': 'sigmoid', 'C': 10.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.9904189146302762,0.7970833333333331,Possible overfitting
+10,5,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7753274092880567,0.6725833333333333,Possible overfitting
+10,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3}",0.8225261821643922,0.7002499999999999,Possible overfitting
+10,5,"{'kernel': 'sigmoid', 'C': 5.0, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7925917698085263,0.6403333333333333,Possible overfitting
+10,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3}",0.5769120913995558,0.5371666666666667,Possible underfitting
+10,5,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3}",0.4587813392573786,0.4108333333333333,Possible underfitting
+10,5,"{'kernel': 'sigmoid', 'C': 2.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000, 'degree': 3}",0.5131704220882259,0.4828333333333334,Possible underfitting
+10,5,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.2, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3}",0.23456151486300647,0.21316666666666662,Possible underfitting
+10,5,"{'kernel': 'sigmoid', 'C': 3.0, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.1793800909764096,0.19291666666666665,Possible underfitting
+10,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.05, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3}",0.8103268803554425,0.6898333333333332,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 0.1, 'degree': 2, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.8148534856659262,0.6835833333333333,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 0.5, 'degree': 2, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.9908515815085158,0.8201666666666667,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 1.0, 'degree': 2, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.82675,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 5.0, 'degree': 3, 'gamma': 0.01, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': -1}",0.9074219824394371,0.7199166666666666,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 10.0, 'degree': 3, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.8201666666666667,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 1.0, 'degree': 3, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 5000}",1.0,0.8188333333333333,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 0.1, 'degree': 3, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': 10000}",1.0,0.8188333333333333,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 2.0, 'degree': 4, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000}",0.6976473077329948,0.48266666666666674,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 0.5, 'degree': 4, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1}",1.0,0.8021666666666667,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 3.0, 'degree': 4, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': -1}",1.0,0.7985833333333333,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 1.0, 'degree': 5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 1000}",1.0,0.7027499999999999,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 5.0, 'degree': 5, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.725,Possible overfitting
+10,5,"{'kernel': 'poly', 'C': 10.0, 'degree': 5, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.7052499999999998,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.7510102612927113,0.6235833333333334,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.809514439860362,0.66475,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.8717666349307097,0.7519166666666668,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9988384639796891,0.8205833333333332,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8059999999999999,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",0.9994202898550725,0.8059999999999999,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.05, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.8277594414471596,0.6723333333333333,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 2.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.8255833333333333,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9841701047286577,0.7194166666666666,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 3.0, 'gamma': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8083333333333332,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.2, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.7196666666666667,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.74725,Possible overfitting
+10,5,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.74725,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9936089072252196,0.795,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7782916666666668,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 10.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7782916666666668,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7782916666666668,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 5.0, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.777625,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",1.0,0.7782916666666668,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.9936089072252196,0.795,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 2.0, 'tol': 0.0001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.7782916666666668,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.777625,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 3.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7782916666666668,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.01, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.777625,Possible overfitting
+10,10,"{'kernel': 'linear', 'C': 0.05, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9451740188300012,0.787,Possible overfitting
+10,10,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7142901724320321,0.566875,Possible overfitting
+10,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.8116767163863322,0.6826666666666666,Possible overfitting
+10,10,"{'kernel': 'sigmoid', 'C': 10.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.9899058499947109,0.7930416666666668,Possible overfitting
+10,10,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.777640960541627,0.6700416666666666,Possible overfitting
+10,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3}",0.8225166613773403,0.6994583333333334,Possible overfitting
+10,10,"{'kernel': 'sigmoid', 'C': 5.0, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7915661694700095,0.6433333333333333,Possible overfitting
+10,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3}",0.5790912937691739,0.5369166666666667,Possible underfitting
+10,10,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3}",0.45682587538347613,0.4039166666666667,Possible underfitting
+10,10,"{'kernel': 'sigmoid', 'C': 2.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000, 'degree': 3}",0.5150454882048028,0.4868333333333334,Possible underfitting
+10,10,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.2, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3}",0.2366158891357241,0.21908333333333327,Possible underfitting
+10,10,"{'kernel': 'sigmoid', 'C': 3.0, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.17952660531048345,0.18941666666666668,Possible underfitting
+10,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.05, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3}",0.8118433301597375,0.6870416666666667,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 0.1, 'degree': 2, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.8134005077753095,0.674625,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 0.5, 'degree': 2, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.9903411615360205,0.8145416666666668,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 1.0, 'degree': 2, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.825625,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 5.0, 'degree': 3, 'gamma': 0.01, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': -1}",0.9076399026763993,0.7158333333333335,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 10.0, 'degree': 3, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.8185416666666666,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 1.0, 'degree': 3, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 5000}",1.0,0.8165416666666667,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 0.1, 'degree': 3, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': 10000}",1.0,0.8152083333333334,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 2.0, 'degree': 4, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000}",0.7021342430974294,0.4835416666666667,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 0.5, 'degree': 4, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1}",1.0,0.79375,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 3.0, 'degree': 4, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': -1}",1.0,0.7901250000000001,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 1.0, 'degree': 5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 1000}",1.0,0.6962083333333335,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 5.0, 'degree': 5, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.7150833333333334,Possible overfitting
+10,10,"{'kernel': 'poly', 'C': 10.0, 'degree': 5, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.6967916666666669,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.7522379138897702,0.613,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.8111710568073626,0.6601250000000001,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.8742949328255581,0.7442083333333334,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9987665291441872,0.8159166666666667,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8007083333333334,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",0.9994927536231885,0.8016249999999999,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.05, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.826167883211679,0.661125,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 2.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.8237916666666666,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9835872209880461,0.7157083333333333,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 3.0, 'gamma': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.80475,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.2, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.7138333333333332,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7420416666666665,Possible overfitting
+10,10,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7420416666666665,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9936517942151742,0.7903030303030303,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7756363636363637,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 10.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7756363636363637,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7756363636363637,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 5.0, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7756363636363637,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",1.0,0.7756363636363637,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.9936517942151742,0.7903030303030303,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 2.0, 'tol': 0.0001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.7756363636363637,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7756363636363637,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 3.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7756363636363637,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.01, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.7756363636363637,Possible overfitting
+15,5,"{'kernel': 'linear', 'C': 0.05, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9435162021077512,0.8098181818181819,Possible overfitting
+15,5,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.5335263797235629,0.40387878787878784,Possible overfitting
+15,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.8035680751173708,0.6587878787878787,Possible overfitting
+15,5,"{'kernel': 'sigmoid', 'C': 10.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.9892649134902652,0.7903030303030303,Possible overfitting
+15,5,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7783446600348007,0.6625454545454545,Possible overfitting
+15,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3}",0.8279201549624084,0.7037575757575758,Possible overfitting
+15,5,"{'kernel': 'sigmoid', 'C': 5.0, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7861873337929676,0.6387878787878788,Possible overfitting
+15,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3}",0.579085327817722,0.5196363636363636,Possible underfitting
+15,5,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3}",0.43426901736760887,0.3306666666666666,Possible overfitting
+15,5,"{'kernel': 'sigmoid', 'C': 2.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000, 'degree': 3}",0.5140083390787615,0.4775757575757575,Possible underfitting
+15,5,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.2, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3}",0.2318244197117437,0.21260606060606058,Possible underfitting
+15,5,"{'kernel': 'sigmoid', 'C': 3.0, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.18104468301651402,0.1989090909090909,Possible underfitting
+15,5,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.05, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3}",0.8162487277980237,0.6945454545454546,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 0.1, 'degree': 2, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.5729669391641222,0.4532121212121211,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 0.5, 'degree': 2, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.9899162809021963,0.8238787878787879,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 1.0, 'degree': 2, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.8254545454545456,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 5.0, 'degree': 3, 'gamma': 0.01, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': -1}",0.8829324665944385,0.6583030303030303,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 10.0, 'degree': 3, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.8214545454545455,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 1.0, 'degree': 3, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 5000}",1.0,0.8203636363636365,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 0.1, 'degree': 3, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': 10000}",1.0,0.8149090909090909,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 2.0, 'degree': 4, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000}",0.5452746314718145,0.3892121212121212,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 0.5, 'degree': 4, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1}",1.0,0.7969696969696971,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 3.0, 'degree': 4, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': -1}",1.0,0.7973333333333333,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 1.0, 'degree': 5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 1000}",1.0,0.710909090909091,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 5.0, 'degree': 5, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.7197575757575758,Possible overfitting
+15,5,"{'kernel': 'poly', 'C': 10.0, 'degree': 5, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.7104242424242425,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.5452746314718145,0.4225454545454545,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.7644577957254014,0.6048484848484849,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.8729295118027511,0.7521212121212122,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9991601825404643,0.8163636363636364,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8004848484848485,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",0.9998135198135198,0.7955151515151516,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.05, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.5745520207492038,0.42921212121212116,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 2.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.8266666666666668,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9822568042286351,0.7204848484848485,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 3.0, 'gamma': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8083636363636364,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.2, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.7218181818181819,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.756,Possible overfitting
+15,5,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.756,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.993604189237992,0.7914545454545454,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7774545454545456,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 10.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7774545454545456,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7774545454545456,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 5.0, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.776848484848485,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",1.0,0.7774545454545456,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.993604189237992,0.7914545454545454,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 2.0, 'tol': 0.0001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.7774545454545456,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 0.5, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.776848484848485,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 3.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7774545454545456,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 1.0, 'tol': 0.01, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.776848484848485,Possible overfitting
+15,10,"{'kernel': 'linear', 'C': 0.05, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9437916543550346,0.8024242424242425,Possible overfitting
+15,10,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.5352047014018845,0.41454545454545455,Possible overfitting
+15,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.804494894776585,0.6624242424242422,Possible overfitting
+15,10,"{'kernel': 'sigmoid', 'C': 10.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.9894957155520535,0.7914545454545454,Possible overfitting
+15,10,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7781095899405758,0.666060606060606,Possible overfitting
+15,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3}",0.8280560753800191,0.7062424242424243,Possible overfitting
+15,10,"{'kernel': 'sigmoid', 'C': 5.0, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7850109983912801,0.6452121212121212,Possible overfitting
+15,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3}",0.5807130897271742,0.5242424242424242,Possible underfitting
+15,10,"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3}",0.43384878032765356,0.3463030303030303,Possible underfitting
+15,10,"{'kernel': 'sigmoid', 'C': 2.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000, 'degree': 3}",0.5118986178141108,0.48339393939393943,Possible underfitting
+15,10,"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.2, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3}",0.2336902065071079,0.21157575757575756,Possible underfitting
+15,10,"{'kernel': 'sigmoid', 'C': 3.0, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.1816064217472668,0.19715151515151513,Possible underfitting
+15,10,"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.05, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3}",0.8165727699530517,0.6970909090909091,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 0.1, 'degree': 2, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.5733398995370826,0.45787878787878783,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 0.5, 'degree': 2, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.9896342624511639,0.8241818181818181,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 1.0, 'degree': 2, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.8247878787878787,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 5.0, 'degree': 3, 'gamma': 0.01, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': -1}",0.8846541252175056,0.6610303030303031,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 10.0, 'degree': 3, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.8236363636363636,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 1.0, 'degree': 3, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 5000}",1.0,0.8230909090909091,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 0.1, 'degree': 3, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': 10000}",1.0,0.8183636363636363,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 2.0, 'degree': 4, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000}",0.5463468925440756,0.3885454545454545,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 0.5, 'degree': 4, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1}",1.0,0.8004242424242424,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 3.0, 'degree': 4, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': -1}",1.0,0.7927878787878787,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 1.0, 'degree': 5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 1000}",1.0,0.7076363636363637,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 5.0, 'degree': 5, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.7158787878787879,Possible overfitting
+15,10,"{'kernel': 'poly', 'C': 10.0, 'degree': 5, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.7020000000000001,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.546766472963656,0.43187878787878786,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.76814012278801,0.6076363636363636,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.8729708788863718,0.7481818181818183,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9991135624938443,0.8163636363636364,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8010909090909092,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",0.9998601398601398,0.7980606060606062,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.05, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.5734797596769428,0.4398787878787878,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 2.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.826787878787879,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.982723989625398,0.7200606060606062,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 3.0, 'gamma': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8081212121212121,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.2, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.716969696969697,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.749090909090909,Possible overfitting
+15,10,"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.749090909090909,Possible overfitting

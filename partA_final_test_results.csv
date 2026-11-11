@@ -1,0 +1,4 @@
+method,hyperparameters,test_accuracy
+Random split,"{'kernel': 'rbf', 'C': 3.0, 'gamma': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.7777777777777778
+K-fold,"{'kernel': 'poly', 'C': 0.1, 'degree': 3, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': 10000}",0.8148148148148148
+Repeated K-fold,"{'kernel': 'rbf', 'C': 2.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",0.7407407407407407

@@ -1,0 +1,51 @@
+hyperparameters,training_accuracy,validation_accuracy,comments
+"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9920634920634921,0.7777777777777778,Possible overfitting
+"{'kernel': 'linear', 'C': 1.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'linear', 'C': 10.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'linear', 'C': 0.5, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'linear', 'C': 5.0, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'linear', 'C': 1.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'linear', 'C': 0.1, 'tol': 0.001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.9920634920634921,0.7777777777777778,Possible overfitting
+"{'kernel': 'linear', 'C': 2.0, 'tol': 0.0001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'linear', 'C': 0.5, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'linear', 'C': 3.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'linear', 'C': 1.0, 'tol': 0.01, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'linear', 'C': 0.05, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.9365079365079365,0.7407407407407407,Possible overfitting
+"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.7777777777777778,0.6296296296296297,Possible overfitting
+"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.8253968253968254,0.7407407407407407,Moderate performance; inspect results
+"{'kernel': 'sigmoid', 'C': 10.0, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.9841269841269841,0.8148148148148148,Possible overfitting
+"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.8174603174603174,0.6666666666666666,Possible overfitting
+"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': -1, 'degree': 3}",0.8253968253968254,0.7037037037037037,Possible overfitting
+"{'kernel': 'sigmoid', 'C': 5.0, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.8095238095238095,0.5925925925925926,Possible overfitting
+"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 5000, 'degree': 3}",0.5793650793650794,0.4444444444444444,Possible overfitting
+"{'kernel': 'sigmoid', 'C': 0.1, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3}",0.46825396825396826,0.37037037037037035,Possible underfitting
+"{'kernel': 'sigmoid', 'C': 2.0, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000, 'degree': 3}",0.5317460317460317,0.4074074074074074,Possible overfitting
+"{'kernel': 'sigmoid', 'C': 0.5, 'gamma': 0.2, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3}",0.23809523809523808,0.25925925925925924,Possible underfitting
+"{'kernel': 'sigmoid', 'C': 3.0, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1, 'degree': 3}",0.1984126984126984,0.1111111111111111,Possible underfitting
+"{'kernel': 'sigmoid', 'C': 1.0, 'gamma': 0.05, 'coef0': 0.05, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3}",0.8174603174603174,0.7037037037037037,Possible overfitting
+"{'kernel': 'poly', 'C': 0.1, 'degree': 2, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.8968253968253969,0.6666666666666666,Possible overfitting
+"{'kernel': 'poly', 'C': 0.5, 'degree': 2, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",0.9920634920634921,0.8148148148148148,Possible overfitting
+"{'kernel': 'poly', 'C': 1.0, 'degree': 2, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'poly', 'C': 5.0, 'degree': 3, 'gamma': 0.01, 'coef0': 0.1, 'tol': 0.0001, 'max_iter': -1}",0.8968253968253969,0.6666666666666666,Possible overfitting
+"{'kernel': 'poly', 'C': 10.0, 'degree': 3, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.8148148148148148,Possible overfitting
+"{'kernel': 'poly', 'C': 1.0, 'degree': 3, 'gamma': 0.1, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 5000}",1.0,0.8148148148148148,Possible overfitting
+"{'kernel': 'poly', 'C': 0.1, 'degree': 3, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': 10000}",1.0,0.8148148148148148,Possible overfitting
+"{'kernel': 'poly', 'C': 2.0, 'degree': 4, 'gamma': 0.01, 'coef0': 0.0, 'tol': 0.001, 'max_iter': 2000}",0.7301587301587301,0.4444444444444444,Possible overfitting
+"{'kernel': 'poly', 'C': 0.5, 'degree': 4, 'gamma': 0.05, 'coef0': 0.1, 'tol': 0.01, 'max_iter': -1}",1.0,0.8148148148148148,Possible overfitting
+"{'kernel': 'poly', 'C': 3.0, 'degree': 4, 'gamma': 0.1, 'coef0': 0.05, 'tol': 0.001, 'max_iter': -1}",1.0,0.7777777777777778,Possible overfitting
+"{'kernel': 'poly', 'C': 1.0, 'degree': 5, 'gamma': 0.05, 'coef0': 0.0, 'tol': 0.0001, 'max_iter': 1000}",1.0,0.6666666666666666,Possible overfitting
+"{'kernel': 'poly', 'C': 5.0, 'degree': 5, 'gamma': 0.1, 'coef0': 0.1, 'tol': 0.001, 'max_iter': -1}",1.0,0.6666666666666666,Possible overfitting
+"{'kernel': 'poly', 'C': 10.0, 'degree': 5, 'gamma': 0.2, 'coef0': 0.0, 'tol': 0.001, 'max_iter': -1}",1.0,0.6666666666666666,Possible overfitting
+"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.8174603174603174,0.7407407407407407,Moderate performance; inspect results
+"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.8333333333333334,0.7407407407407407,Moderate performance; inspect results
+"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",0.8809523809523809,0.7037037037037037,Possible overfitting
+"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.01, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7777777777777778,Possible overfitting
+"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.01, 'tol': 0.0001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 5000, 'degree': 3, 'coef0': 0.0}",1.0,0.7777777777777778,Possible overfitting
+"{'kernel': 'rbf', 'C': 0.1, 'gamma': 0.05, 'tol': 0.0001, 'max_iter': 10000, 'degree': 3, 'coef0': 0.0}",0.9365079365079365,0.8148148148148148,Possible overfitting
+"{'kernel': 'rbf', 'C': 2.0, 'gamma': 0.05, 'tol': 0.001, 'max_iter': 2000, 'degree': 3, 'coef0': 0.0}",1.0,0.8518518518518519,Possible overfitting
+"{'kernel': 'rbf', 'C': 0.5, 'gamma': 0.1, 'tol': 0.01, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.7777777777777778,Possible overfitting
+"{'kernel': 'rbf', 'C': 3.0, 'gamma': 0.1, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8888888888888888,Possible overfitting
+"{'kernel': 'rbf', 'C': 1.0, 'gamma': 0.2, 'tol': 0.0001, 'max_iter': 1000, 'degree': 3, 'coef0': 0.0}",1.0,0.7777777777777778,Possible overfitting
+"{'kernel': 'rbf', 'C': 5.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8148148148148148,Possible overfitting
+"{'kernel': 'rbf', 'C': 10.0, 'gamma': 0.2, 'tol': 0.001, 'max_iter': -1, 'degree': 3, 'coef0': 0.0}",1.0,0.8148148148148148,Possible overfitting
